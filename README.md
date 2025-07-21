@@ -57,18 +57,12 @@ cp .env.example .env
 3. Следуйте инструкциям
 4. Скопируйте токен в `.env`
 
-### 2. Telegram API (для user-бота)
-1. Перейдите на [my.telegram.org](https://my.telegram.org)
-2. Войдите с номером телефона
-3. Создайте приложение
-4. Скопируйте API_ID и API_HASH в `.env`
-
-### 3. Google Gemini API
+### 2. Google Gemini API
 1. Перейдите на [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Создайте API ключ
 3. Скопируйте в `.env`
 
-### 4. Ключ шифрования
+### 3. Ключ шифрования
 ```bash
 # Сгенерируйте ключ шифрования
 python generate_key.py

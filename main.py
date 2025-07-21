@@ -3,7 +3,6 @@ import logging
 from dotenv import load_dotenv
 import os
 
-# Загружаем переменные окружения в самом начале
 load_dotenv()
 
 from aiogram import Bot, Dispatcher
